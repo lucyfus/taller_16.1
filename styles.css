@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    margin: 2%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Imagen del logo */
+img {
+    width: 30vw; 
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Estilo del input y el botón */
+#buscador, #btnBuscador {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1em;
+    width: 80%; 
+    max-width: 300px; 
+}
+
+/* Estilo adicional para el botón */
+#btnBuscador {
+    background-color: #ffcb05; 
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilo para la tarjeta de resultados */
+.pokemon-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pokemon-card img {
+    width: 100px; /* Ajusta el tamaño de la imagen del Pokémon */
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.pokemon-card h2 {
+    margin: 0;
+    color: #333;
+}
+
+.pokemon-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Ajuste para mostrar errores */
+#pokemon-info p {
+    color: red;
+}
